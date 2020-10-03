@@ -38,7 +38,7 @@ function winner (home, away) {
 /* Task 2: Create a function called  getFinals that takes `data` as an argument and returns an array of objects with only finals data */
 
 const getFinals = fifaData.filter((item) => {
-    return (item["Stage"] = "Final"
+    return (item["Stage"] === "Final"
     );
   });
   console.log(getFinals);
